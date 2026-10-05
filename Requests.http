@@ -1,0 +1,13 @@
+### POST category
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+
+{
+  "name": "Food"
+}
+
+### GET request to example server
+GET http://localhost:8080/api/v1/categories
+
+### DELETE Category
+DELETE http://localhost:8080/api/v1/categories/07c9588c-a85b-4844-b365-fff01e364150
